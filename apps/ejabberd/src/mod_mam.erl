@@ -105,6 +105,7 @@
 -include_lib("ejabberd/include/jlib.hrl").
 -include_lib("ejabberd/include/amp.hrl").
 -include_lib("exml/include/exml.hrl").
+-include("mod_mam.hrl").
 
 %% ----------------------------------------------------------------------
 %% Datetime types

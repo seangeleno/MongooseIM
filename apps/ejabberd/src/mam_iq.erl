@@ -20,6 +20,7 @@
          form_field_value_s/2]).
 
 -include("jlib.hrl").
+-include("mongoose_rsm.hrl").
 
 %% @doc Convert id into internal format.
 -spec fix_rsm('none' | jlib:rsm_in()) -> 'undefined' | jlib:rsm_in().
